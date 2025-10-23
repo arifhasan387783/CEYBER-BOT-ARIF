@@ -17,7 +17,7 @@
     "PASSWORD": "",
     "OTPKEY": "",
     "BOTNAME": "CEYBER-BOT-SIYAM",
-    "PREFIX": "/",
+    "PREFIX": ".",
     "ADMINBOT": [
         "100081398730810",
         "100081398730810",

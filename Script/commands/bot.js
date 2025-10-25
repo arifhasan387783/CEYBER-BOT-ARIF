@@ -75,7 +75,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("simsimi কমান্ড এড় নাই টাইপ করুন baby", threadID);
    };
   
-   if ((event.body.toLowerCase() == ".dua") || (event.body.toLowerCase() == ".hadis") ||(event.body.toLowerCase() == ".islam") || (event.body.toLowerCase() == "...")) {
+   if ((event.body.toLowerCase() == ".dua") || (event.body.toLowerCase() == "hadis") ||(event.body.toLowerCase() == "islam") || (event.body.toLowerCase() == "...")) {
      return api.sendMessage( "নামাজ কায়েম কর — সূরা বাকারা ২:৪৩"
 "হাসা সদকা — তিরমিজী"
 "রাগ সংবরণ কর — বুখারি"
